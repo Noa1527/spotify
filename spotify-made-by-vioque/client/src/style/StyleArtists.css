@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body, .sizing, #root {
+    height: 100%;
+    width: 100%;
+}
+h1{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.DisplayWrap{
+    height: 100%;
+    width: 99%;
+    margin: 0 auto;
+}
+.display{
+    display: flex;
+    justify-content: center;   
+}
+.display li{
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.5em;
+}
+.display li a{
+    text-decoration: none;
+}
+.scrollArtist{
+    margin: 0 10px;
+    padding: 0%;
+    overflow-y: scroll;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 10px;
+    column-gap: 5px;
+}
+.myCard{
+    width: 100%;
+    height: auto;
+}
+.imgCard{
+    height: 60%;
+}
+.infoCard{
+    height: 40%;
+}
+.infoCard p{
+    padding: 10px;
+}
+.scrollBio{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 200px;
+}
+.imgDime{
+    height:400px ;
+    
+}
+
+img{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+li{
+    list-style: none;  
+   width:95%;  
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+/* *************************       albums       *************************** */
+
+.scrollAlbum{
+    margin: 0 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 99%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 10px;
+    height: 700px;
+}
+.width{
+    width: 99%;
+}
+.album{
+    width: 95%;
+}
+.album__title{
+    text-align: center;
+}
+.album__cover{
+    width: 100%;
+    margin: auto;
+}
+.albumswrap{
+    margin: 0 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 15px;
+    height: 700px;
+}
